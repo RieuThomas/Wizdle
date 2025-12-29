@@ -1,13 +1,12 @@
-# 🧠 React Application Project
-This project is a comprehensive React application that utilizes client-side routing, context API for state management, and TypeScript for type checking. The application is built using Vite as the development server and build tool. It features a robust component hierarchy, including a root component, a router provider, and various other components for rendering different pages and functionality.
+# 🧠 Wizdle
+Wizdle is a comprehensive and interactive Harry Potter based game built using React, React Router, and various other technologies. It provides a engaging user experience with features such as username management, game interface, clue management, and more. The application is designed to be modular, scalable, and maintainable, making it easy to extend and customize.
 
 ## 🚀 Features
-* Client-side routing using React Router
-* Context API for managing global state (username and clue visibility)
-* TypeScript for type checking and code maintainability
-* Vite as the development server and build tool
-* Modular component hierarchy with reusable components
-* Custom hooks for accessing and updating global state
+- **Username Management**: The application allows users to enter their username, which is stored in the `UsernameContext` and used throughout the application.
+- **Game Interface**: The game interface is rendered by the `Game` component, which manages game state, user interactions, and clue visibility.
+- **Clue Management**: The application uses the `ClueContext` to manage clue-related state and functionality, providing a centralized way to access and update clue data.
+- **Routing**: The application uses React Router to handle client-side routing, providing a seamless navigation experience.
+- **Modular Design**: The application is designed to be modular, with separate components for each feature, making it easy to maintain and extend.
 
 ## 🛠️ Tech Stack
 * Frontend: React, React Router, React Context API
