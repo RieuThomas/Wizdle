@@ -1,33 +1,75 @@
-# React + TypeScript + Vite
+# 🧠 React Application Project
+This project is a comprehensive React application that utilizes client-side routing, context API for state management, and TypeScript for type checking. The application is built using Vite as the development server and build tool. It features a robust component hierarchy, including a root component, a router provider, and various other components for rendering different pages and functionality.
 
-Ce modèle fournit une configuration minimale pour faire fonctionner React dans Vite avec certaines règles Biome et package préinstallé.
+## 🚀 Features
+* Client-side routing using React Router
+* Context API for managing global state (username and clue visibility)
+* TypeScript for type checking and code maintainability
+* Vite as the development server and build tool
+* Modular component hierarchy with reusable components
+* Custom hooks for accessing and updating global state
 
-Il est préconfiguré avec un ensemble d'outils pour aider les étudiants à produire du code de qualité industrielle, tout en restant un outil pédagogique :
+## 🛠️ Tech Stack
+* Frontend: React, React Router, React Context API
+* Build Tool: Vite
+* Type Checking: TypeScript
+* Dependencies: react, react-dom, react-router, vite, @vitejs/plugin-react-swc, typescript, @types/react
+* DevDependencies: @vitejs/plugin-react-swc, typescript, @types/react
 
-- **Husky** : Vous permet d'exécuter des commandes spécifiques déclenchées par des événements _git_.
-- **Vite** : Alternative à _Create-React-App_, offrant une expérience plus fluide avec moins d'outils.
-- **Biome** : Alternative à _ESlint_ et _Prettier_, assurant la qualité du code selon les règles choisies.
+## 📦 Installation
+To get started with the project, follow these steps:
+1. Clone the repository using `git clone`
+2. Install the dependencies using `npm install` or `yarn install`
+3. Start the development server using `npm run dev` or `yarn dev`
 
-## Utilisateurs Windows
+## 💻 Usage
+To run the application, navigate to the project directory and execute the following command:
+```bash
+npm run dev
+```
+or
+```bash
+yarn dev
+```
+This will start the Vite development server, and you can access the application at `http://localhost:3000` in your web browser.
 
-Assurez-vous de lancer ces commandes dans un terminal Git pour éviter [les problèmes de formats de nouvelles lignes](https://en.wikipedia.org/wiki/Newline#Issues_with_different_newline_formats) :
-
-```sh
-git config --global core.eol lf
-git config --global core.autocrlf false
+## 📂 Project Structure
+```markdown
+.
+├── node_modules
+├── public
+├── src
+│   ├── App.tsx
+│   ├── contexts
+│   │   ├── ClueContext.tsx
+│   │   ├── UsernameContext.tsx
+│   ├── interfaces
+│   │   ├── interfaces.ts
+│   ├── main.tsx
+│   ├── router.tsx
+│   └── ...
+├── tsconfig.json
+├── vite.config.ts
+├── package.json
+└── ...
 ```
 
-## Installation & Utilisation
+## 📸 Screenshots
+<img width="1919" height="865" alt="Capture d&#39;écran 2025-12-29 095426" src="https://github.com/user-attachments/assets/fa5d72ba-cb7d-4596-8014-3877e61b161f" />
+<img width="1899" height="864" alt="Capture d&#39;écran 2025-12-29 095444" src="https://github.com/user-attachments/assets/1551dcc1-07f8-4ff7-be35-1d9cab47fe0b" />
+<img width="1916" height="865" alt="Capture d&#39;écran 2025-12-29 095508" src="https://github.com/user-attachments/assets/7724d789-646b-46e3-b3db-8a5fa2b7bcec" />
+<img width="1896" height="865" alt="Capture d&#39;écran 2025-12-29 095549" src="https://github.com/user-attachments/assets/4144ddab-f173-4c9b-956e-6478fa31f6e1" />
+<img width="1901" height="866" alt="Capture d&#39;écran 2025-12-29 095611" src="https://github.com/user-attachments/assets/18b149af-3f30-4657-8bbf-4acc26d62f81" />
 
-1. Installez le plugin **Biome** dans VSCode et configurez-le.
-2. Clonez ce dépôt, puis accédez au répertoire cloné.
-3. Exécutez la commande `npm install`.
-4. Créez un fichier d'environnement (`.env`) à la racine du dossier projet : vous pouvez copier le fichier `.env.sample` comme modèle (**ne le supprimez pas**).
+## 🤝 Contributing
+Contributions are welcome! To contribute to the project, please fork the repository, make your changes, and submit a pull request.
 
-## Commandes de Base
+## 📝 License
+This project is licensed under the MIT License.
 
-| Commande               | Description                                                                 |
-|------------------------|-----------------------------------------------------------------------------|
-| `npm install`          | Installe les dépendances                   |
-| `npm run dev`          | Démarre le server en développement         |
-| `npm run check`        | Exécute les outils de validation (linting et formatage)                     |
+## 📬 Contact
+For any questions or concerns, please contact us at [support@example.com](mailto:support@example.com).
+
+## 💖 Thanks Message
+This project was made possible by the contributions of many individuals. We would like to extend our gratitude to everyone who has contributed to the project. 
+This is written by readme.ai [readme.ai](https://readme-generator-phi.vercel.app/)
